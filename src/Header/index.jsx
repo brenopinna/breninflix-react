@@ -6,7 +6,7 @@ const Header = () => {
    return (
       <Container>
          <HeaderResponsiveContainer>
-            <Title>BreninfLix</Title>
+            <Title>Breninflix</Title>
          </HeaderResponsiveContainer>
       </Container>
    );

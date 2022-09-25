@@ -5,11 +5,11 @@ import { AiOutlineInfoCircle } from 'react-icons/ai';
 import { Container, AboutTitle, Description, ButtonsContainer, Watch, Info } from './styles'
 
 
-const About = () => {
+const About = ({ title, overview }) => {
    return (
       <Container>
-         <AboutTitle>Nome do filme</AboutTitle>
-         <Description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dicta ea blanditiis. Cum, eveniet temporibus doloremque impedit optio, ullam quidem distinctio pariatur mollitia sint dolores? Praesentium, sed iste commodi odit dignissimos reprehenderit neque quidem enim, laboriosam quisquam nihil quibusdam in!</Description>
+         <AboutTitle>{title}</AboutTitle>
+         <Description>{overview}</Description>
          <ButtonsContainer>
             <Watch>
                <FaPlay className='icon'/>
